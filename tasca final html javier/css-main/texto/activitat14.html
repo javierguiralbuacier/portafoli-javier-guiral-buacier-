@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Texto de la pestaña</title>
+    </head>
+    <body>
+       <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi sitio con fuentes personalizadas</title>
+
+  <style>
+    /* ============================
+       CARGA DE TIPOGRAFÍAS
+       ============================ */
+
+    @font-face {
+      font-family: "PlayfairCustom";
+      src: url("fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "RobotoCustom";
+      src: url("fonts/Roboto-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* ============================
+       CLASES PARA CADA FUENTE
+       ============================ */
+
+    .fuente-titulo {
+      font-family: "PlayfairCustom", serif;
+    }
+
+    .fuente-texto {
+      font-family: "RobotoCustom", sans-serif;
+    }
+
+    /* ============================
+       ESTILOS GENERALES
+       ============================ */
+
+    body {
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .contenedor {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <h1 class="fuente-titulo">El eco de las montañas</h1>
+
+    <p class="fuente-texto">
+      En un valle escondido entre picos nevados, los habitantes juraban que las montañas tenían memoria.
+      Cada paso, cada palabra y cada historia quedaban grabados en sus laderas como un susurro eterno.
+      Algunos decían que, si uno escuchaba con atención al amanecer, podía oír voces antiguas contando
+      relatos olvidados por los hombres.
+    </p>
+
+    <p class="fuente-texto">
+      Nadie sabía cuándo empezó aquella leyenda, pero todos coincidían en algo: el eco nunca repetía
+      exactamente lo que uno decía. A veces devolvía una risa, otras un consejo, y en ocasiones un
+      silencio tan profundo que parecía contener un secreto demasiado grande para ser pronunciado.
+    </p>
+  </div>
+</body>
+</html>
+
+    </body>
+</html>

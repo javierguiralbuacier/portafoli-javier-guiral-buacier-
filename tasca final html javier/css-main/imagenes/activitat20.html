@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Texto de la pestaña</title>
+    </head>
+    <body>
+       <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: sans-serif; background:#f2f2f2; padding:20px; }
+  .chat { max-width:400px; margin:auto; }
+  .msg {
+    display:flex; gap:10px; margin-bottom:15px;
+    background:white; padding:10px; border-radius:10px;
+  }
+  .msg.right { flex-direction: row-reverse; text-align:right; }
+  .avatar {
+    width:40px; height:40px; border-radius:50%;
+    background:#ddd; display:flex; justify-content:center; align-items:center;
+    font-weight:bold;
+  }
+  .name { font-size:14px; font-weight:bold; }
+  .date { font-size:11px; color:#666; }
+  .text { margin-top:4px; }
+</style>
+</head>
+<body>
+
+<div class="chat">
+
+  <div class="msg">
+    <div class="avatar">A</div>
+    <div>
+      <div class="name">Ana</div>
+      <div class="date">03/02/2026</div>
+      <div class="text">Hola Carlos, ¿cómo va todo?</div>
+    </div>
+  </div>
+
+  <div class="msg right">
+    <div class="avatar">C</div>
+    <div>
+      <div class="name">Carlos</div>
+      <div class="date">03/02/2026</div>
+      <div class="text">Todo bien, gracias. ¿Y tú?</div>
+    </div>
+  </div>
+
+</div>
+<template id="msg-template">
+  <div class="msg">
+    <div class="avatar"></div>
+    <div>
+      <div class="name"></div>
+      <div class="date"></div>
+      <div class="text"></div>
+    </div>
+  </div>
+</template>
+
+</body>
+</html>
+
+    </body>
+</html>

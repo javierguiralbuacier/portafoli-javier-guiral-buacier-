@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Texto de la pestaña</title>
+    </head>
+    <body>
+       <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Hover 3D en imagen</title>
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    background: #111827;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-3d {
+    perspective: 1000px; /* profundidad 3D */
+  }
+
+  .card-3d img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 18px 35px rgba(0,0,0,0.5);
+    transform: rotateY(0deg) rotateX(0deg) translateY(0);
+    transform-origin: center;
+    transition:
+      transform 0.4s ease,
+      box-shadow 0.4s ease;
+  }
+
+  .card-3d:hover img {
+    transform: rotateY(12deg) rotateX(6deg) translateY(-6px);
+    box-shadow: 0 28px 55px rgba(0,0,0,0.7);
+  }
+</style>
+</head>
+<body>
+
+<div class="card-3d">
+  <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg"
+       alt="Paisaje en 3D">
+</div>
+
+</body>
+</html>
+
+    </body>
+</html>
