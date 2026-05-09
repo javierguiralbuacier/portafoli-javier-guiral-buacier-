@@ -6,3 +6,6 @@
 <body>
 </body>
 </html>
+git add .
+git commit -m "pagina principal"
+git push
