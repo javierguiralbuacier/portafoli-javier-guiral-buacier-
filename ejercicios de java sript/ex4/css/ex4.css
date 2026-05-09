@@ -1,0 +1,19 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+}
+
+#resultat{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background: #c7c7c7;
+
+    margin: 10px auto
+}
